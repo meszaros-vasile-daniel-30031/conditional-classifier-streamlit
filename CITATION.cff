@@ -3,13 +3,13 @@ title: "Conditional Sentence Classifier for Learner English"
 message: "If you use this software in your research, please cite it."
 type: software
 authors:
-  - family-names: Manda
-    given-names: Ionela Tatiana
-	affiliation: "Centre for Corpus Related Digital Approaches to Humanities, West University of Timisoara"
+  - family-names: "Manda"
+    given-names: "Ionela Tatiana"
+    affiliation: "Centre for Corpus Related Digital Approaches to Humanities, West University of Timisoara"
 	orcid: "https://orcid.org/0009-0005-7589-6977"
-  - family-names: Meszaros
-    given-names: Daniel
-	affiliation: "Centre for Corpus Related Digital Approaches to Humanities, West University of Timisoara"
+  - family-names: "Meszaros"
+    given-names: "Daniel"
+    affiliation: "Centre for Corpus Related Digital Approaches to Humanities, West University of Timisoara"
 year: 2026
 license: GPL-3.0-or-later
 url: https://github.com/ionelatatianamanda-spec/conditional-classifier
