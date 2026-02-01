@@ -26,6 +26,12 @@ import streamlit as st
 import io
 import zipfile
 import altair as alt
+import subprocess
+
+
+@st.cache_resource
+def download_en_core_web_sm():
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
 
 @dataclass
 class Clause:
