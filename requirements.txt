@@ -2,5 +2,4 @@ spacy
 benepar
 stanza
 pandas
-zipfile
 altair
