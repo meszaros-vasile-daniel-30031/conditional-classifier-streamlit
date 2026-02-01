@@ -4,5 +4,6 @@ spacy_streamlit
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl#egg=en_core_web_sm==3.7.0
 benepar
 stanza
+numpy==1.26.3
 pandas
 altair<5
