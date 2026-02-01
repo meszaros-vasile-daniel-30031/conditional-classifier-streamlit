@@ -615,6 +615,7 @@ def analyze_texts(texts: List[Tuple[str, str]]) -> pd.DataFrame:
 
 @st.cache_resource
 def get_nlp():
+    benepar.download('benepar_en3')
     #stanza.download("en", verbose=False)
     return stanza.Pipeline(
         lang='en',
