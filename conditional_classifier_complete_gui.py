@@ -16,7 +16,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Dict, List, Tuple, Optional, Set
 
-import spacy_streamlit as spacy
+import spacy
 import benepar
 import stanza
 from spacy.tokens import Span
