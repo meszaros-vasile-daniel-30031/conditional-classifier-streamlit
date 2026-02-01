@@ -684,6 +684,7 @@ def read_uploaded_files(files) -> List[Tuple[str, str]]:
 # UI
 # ----------------------------
 
+download_en_core_web_sm()
 st.set_page_config(page_title="Conditional Classifier", layout="wide")
 st.title("Conditional Classifier")
 st.caption("Upload .txt files (or a .zip of .txt files) to classify conditionals and visualize results.")
