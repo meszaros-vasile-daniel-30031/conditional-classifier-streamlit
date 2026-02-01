@@ -1,3 +1,4 @@
+streamlit==1.53.0
 spacy==3.8.0
 spacy_streamlit
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#egg=en_core_web_sm==3.8.0
