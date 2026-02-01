@@ -29,9 +29,6 @@ import altair as alt
 import subprocess
 
 
-@st.cache_resource
-def download_en_core_web_sm():
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
 
 @dataclass
 class Clause:
@@ -684,7 +681,6 @@ def read_uploaded_files(files) -> List[Tuple[str, str]]:
 # UI
 # ----------------------------
 
-download_en_core_web_sm()
 st.set_page_config(page_title="Conditional Classifier", layout="wide")
 st.title("Conditional Classifier")
 st.caption("Upload .txt files (or a .zip of .txt files) to classify conditionals and visualize results.")
